@@ -1,4 +1,4 @@
-module.exports.server = 'https://eshop-1l8c.onrender.com/api/v2';
+export const server = 'https://eshop-1l8c.onrender.com/api/v2';
 
-module.exports.backend_url = 'https://eshop-1l8c.onrender.com/';
+export const backend_url = 'https://eshop-1l8c.onrender.com/';
 
