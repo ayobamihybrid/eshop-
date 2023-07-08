@@ -8,7 +8,7 @@ const path = require('path');
 
 app.use(
   cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://eshop-client-9djy.onrender.com',
     credentials: true,
   })
 );
