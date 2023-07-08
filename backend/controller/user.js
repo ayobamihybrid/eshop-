@@ -40,7 +40,7 @@ router.post('/create-user', upload.single('file'), async (req, res, next) => {
 
     const activationToken = createActivationToken(user);
 
-    const activationUrl = `https://eshop-1l8c.onrender.com/activation/${activationToken}`;
+    const activationUrl = `https://eshop-client-9djy.onrender.com/activation/${activationToken}`;
 
     try {
       await sendMail({
